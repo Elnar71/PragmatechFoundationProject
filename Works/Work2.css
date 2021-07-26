@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+body{
+ margin: 0;
+}
+h1{
+ margin: 0;
+ 
+}
+h2{
+ margin: 0;
+
+}
+header{
+ width: 100%;
+ border: 2px solid rgb(41, 20, 233);
+ text-align: center;
+ margin: 0 50% 0 50%;
+ transform: translateX(-50%);
+}
+.Box_container{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ align-items: center;
+}
+.Box{
+ border: 2px solid rgb(23, 102, 116);
+ width: 360px;
+ height: 400px;
+ font-size: 30px;
+ color: rgb(76, 0, 253);
+ text-align: center;
+ line-height: 400px;
+ margin: 10px;
+
+
+ 
+}
+footer{
+ text-align: center;
+ border: 2px solid rgb(8, 163, 73);
+ color:rgb(179, 17, 17);
+ height: 100px;
+ margin: 0 5px 0 5px;
+ line-height: 100px ;
+}
+
