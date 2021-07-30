@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+/* Header Start */
+header .zugan{
+ width: 138.13px;
+ height: 90px;
+ display: inline-block;
+}
+header .zugan img{
+ width: 138.13px;
+ height: 47.98px;
+ padding: 8px 0px;
+}
+header .hood {
+ position: relative;
+ top: 25px;
+ right: 200px;
+ float: right;
+}
+
+header .hood ul{
+ ;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+header .hood ul li{
+ font-family: 'Roboto',
+ sans-serif;
+ padding: 33px 15px;
+ float: left;
+}
+header .hood ul li a{
+ text-decoration: none;
+}
+/* Header End*/

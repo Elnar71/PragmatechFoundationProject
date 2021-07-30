@@ -1,0 +1,20 @@
+*{box-sizing: border-box;}
+body{
+ margin: 0;
+}
+h1{
+margin: 0;
+}
+.container-fluid{
+color: black;
+ text-align: center;
+  
+
+}
+.Menu{
+  background-color: lightpink;
+}
+.blog{
+ border: 1px solid black;
+margin: 20px;
+}
