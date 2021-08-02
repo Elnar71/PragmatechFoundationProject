@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
-
+*{box-sizing: border-box;}
 body {
  width: 1900px;
+ 
 }
 
 /* Header Start */
@@ -72,7 +73,9 @@ main {
  position: relative;
  top: 150px;
 }
-
+main .container-fluid .row{
+ 
+}
 main .container-fluid .row .col-4 {
 
  width: 400px;
@@ -222,3 +225,87 @@ main .container-fluid .row .box .col-6 .words p{
   color: #444;
   line-height: 1.8;
 }
+
+/* MAIN End*/
+
+/*Footer Start*/
+footer .container-fluid .row .col-12 .finish{
+  padding: 95px 0 90px;
+  border: 1px solid #373737;
+  height: 414.06px;
+  background-color: #1A1A1A;
+}
+footer .container-fluid .row{
+  margin: 0px -15px;
+}
+footer .container-fluid .row .col-12 .finish img{
+  border: none;
+  border-radius: 50%;
+  margin: 0 50% 0 50%;
+  transform: translateX(-50%);
+   width: 160px;
+   height: 160px;
+   padding:  0px;
+   
+}
+footer .container-fluid .row .col-12 .finish ul {
+  margin: 15px 0px 25px;
+  list-style-type: none;
+  position: relative;
+  left: 630px;
+}
+footer .container-fluid .row .col-12 .finish ul li{
+  float: left;
+padding: 0px 15px;
+
+}
+footer .container-fluid .row .col-12 .finish ul li a{
+  text-decoration: none;
+ color: #B3B3B3;
+ font-size: 16px;
+ font-family: 'Roboto',
+ sans-serif;
+}
+footer .container-fluid .row .col-12 .finish .icons ul {
+  margin: 70px 0px 25px;
+  list-style-type: none;
+  position: relative;
+  left: 630px;
+  
+}
+  footer .container-fluid .row .col-12 .finish .icons ul li {
+    float: left;
+    padding: 0px 5px;
+    
+    position: relative;
+    left: 110px;
+
+  }
+  footer .container-fluid .row .col-12 .finish .icons ul li a {
+    
+    text-decoration: none;
+background-color: #111;
+color: white;
+border-radius: 5px;
+font-size: 20px;
+display: block;
+text-align: center;
+width: 46px;
+height: 46px;
+border-radius: 50%;
+line-height: 46px;
+  }
+
+footer .container-fluid .row .col-12 .finish .copyright{
+  color: #B3B3B3;
+  font-size: 18px;
+  font-family: 'Roboto',
+  sans-serif;
+  position: relative;
+  top: 60px;
+  left: 370px;
+  margin-top: 10px;
+  height: 26px;
+  
+
+  }
