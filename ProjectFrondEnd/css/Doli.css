@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/* About Start */
+#about .container-fluid .row .col-4 .doli {
+  width: 180px;
+  height: 180px;
+  margin-left: 80px;
+}
+
+#about .container-fluid .row .col-4 .doli img {
+  width: 100%;
+  height: 100%;
+}
+
+#about .container-fluid .row .col-4 .navbar ul {
+  margin-top: 80px;
+  list-style: none;
+  display: flex;
+
+}
+
+#about .container-fluid .row .col-4 .navbar ul li a {
+  padding-left: 25px;
+
+  text-decoration: none;
+  color: #111;
+  font-weight: 1000;
+  font-family: 'STIX Two Text',
+    serif;
+
+}
+#about .container-fluid .row .col-4{
+  width: 500px;
+}
+#about .container-fluid .row .col-4:nth-child(2){
+  position: relative;
+  left: 300px;
+}
+#about .container-fluid .row .col-4:last-child{
+  width: 300px;
+}
+#about .container-fluid .row .col-4 .icon {
+  padding-left: 100px;
+  margin-top: 80px;
+  font-weight: 500;
+  font-size: 20px;
+  width: 200px;
+  position: relative;
+  left: 50px;
+}
+
+/* About End */
+
+
+/* Menu Start */
+#menu .container-fluid .row .col-4 {
+  margin-top: 100px;
+}
+#menu .container-fluid .row .col-4:first-child{
+  width: 350px;
+}
+#menu .container-fluid .row .col-4:nth-child(2){
+  width: 800px;
+  
+}
+#menu .container-fluid .row .col-4:last-child{
+  width: 350px;
+}
+#menu .container-fluid .row .col-4 .welcome{
+
+ width: 300px;
+ height: 350px;
+ 
+}
+#menu .container-fluid .row .col-4 .welcome h2 {
+  transform: rotate(-90deg);
+  width: 345px;
+  height: 300px;
+  margin-left: 5px;
+  margin-top: 100px;
+  font-family: 'STIX Two Text',
+    serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+
+}
+
+#menu .container-fluid .row .col-4 .mockup {
+  margin-top: 20px;
+  padding-top: 70px;
+  margin-left: 2px;
+  height: 400px;
+}
+
+#menu .container-fluid .row .col-4 .row .col-6 .mockup p:first-child {
+  font-size: 20px;
+  font-family: 'STIX Two Text',
+    serif;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+
+#menu .container-fluid .row .col-4 .row .col-6 .mockup p {
+  font-size: 16px;
+  font-family: 'STIX Two Text',
+    serif;
+  padding-bottom: 10px;
+  padding-top: 0px;
+
+}
+
+
+#menu .container-fluid .row .col-4 .row .col-6 .mockup h1 {
+  font-size: 40px;
+  font-family: 'STIX Two Text',
+    serif;
+  margin: 20px 0;
+}
+
+#menu .container-fluid .row .col-4 .row .col-6 .mockup button {
+  background-color: #111;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-family: 'STIX Two Text',
+    serif;
+  padding: 0px;
+}
+
+#menu .container-fluid .row .col-4 .row .col-6 .image {
+  width: 400px;
+  height: 400px;
+  margin-top: 60px;
+}
+
+#menu .container-fluid .row .col-4 .row .col-6 .image img {
+  width: 100%;
+  height: 100%;
+}
+
+#menu .container-fluid .row .col-4 .website-icons ul {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 60px;
+  width: 350px;
+}
+
+#menu .container-fluid .row .col-4 .website-icons ul li {
+  padding-top: 40px;
+  width: 40px;
+  position: relative;
+  left: 270px;
+}
+
+#menu .container-fluid .row .col-4 .website-icons ul li a {
+  color: #111;
+  font-family: 'STIX Two Text',
+    serif;
+  width: 100%;
+  font-size: 20px;
+}
+
+/* Menu End */
