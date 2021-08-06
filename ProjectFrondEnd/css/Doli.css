@@ -33,16 +33,20 @@
     serif;
 
 }
-#about .container-fluid .row .col-4{
+
+#about .container-fluid .row .col-4 {
   width: 500px;
 }
-#about .container-fluid .row .col-4:nth-child(2){
+
+#about .container-fluid .row .col-4:nth-child(2) {
   position: relative;
   left: 300px;
 }
-#about .container-fluid .row .col-4:last-child{
+
+#about .container-fluid .row .col-4:last-child {
   width: 300px;
 }
+
 #about .container-fluid .row .col-4 .icon {
   padding-left: 100px;
   margin-top: 80px;
@@ -60,32 +64,37 @@
 #menu .container-fluid .row .col-4 {
   margin-top: 100px;
 }
-#menu .container-fluid .row .col-4:first-child{
-  width: 350px;
-}
-#menu .container-fluid .row .col-4:nth-child(2){
-  width: 800px;
-  
-}
-#menu .container-fluid .row .col-4:last-child{
-  width: 350px;
-}
-#menu .container-fluid .row .col-4 .welcome{
 
- width: 300px;
- height: 350px;
- 
+#menu .container-fluid .row .col-4:first-child {
+  width: 350px;
 }
+
+#menu .container-fluid .row .col-4:nth-child(2) {
+  width: 1200px;
+
+}
+
+#menu .container-fluid .row .col-4:last-child {
+  width: 350px;
+}
+
+#menu .container-fluid .row .col-4 .welcome {
+
+  width: 300px;
+  height: 350px;
+
+}
+
 #menu .container-fluid .row .col-4 .welcome h2 {
   transform: rotate(-90deg);
-  width: 345px;
+  width: 350px;
   height: 300px;
   margin-left: 5px;
   margin-top: 100px;
   font-family: 'STIX Two Text',
     serif;
-    font-size: 18px;
-    letter-spacing: 5px;
+  font-size: 18px;
+  letter-spacing: 5px;
 
 }
 
@@ -95,6 +104,7 @@
   margin-left: 2px;
   height: 400px;
 }
+
 
 #menu .container-fluid .row .col-4 .row .col-6 .mockup p:first-child {
   font-size: 20px;
@@ -135,9 +145,9 @@
 }
 
 #menu .container-fluid .row .col-4 .row .col-6 .image {
-  width: 400px;
-  height: 400px;
-  margin-top: 60px;
+  width: 550px;
+  height: 500px;
+  margin-top: 40px;
 }
 
 #menu .container-fluid .row .col-4 .row .col-6 .image img {
@@ -168,3 +178,148 @@
 }
 
 /* Menu End */
+
+/* Theme Start */
+#theme .container .row .col-6 .picture {
+  width: 500px;
+  margin-top: 100px;
+  padding-top: 100px;
+
+}
+
+#theme .container .row .col-6 .picture img {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+#theme .container .row .col-6 .words {
+  padding: 100px 0 0 5px;
+  margin-top: 100px;
+  font-family: 'STIX Two Text',
+    serif;
+  width: 550px;
+}
+
+#theme .container .row .col-6 .words h3 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+#theme .container .row .col-6 .words p {
+  font-size: 16px;
+}
+
+#theme .container .row .col-12 {
+  width: 600px;
+  position: relative;
+  left: 300px;
+  margin-top: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#theme .container .row .col-12 h2 {
+  font-family: 'STIX Two Text',
+    serif;
+  width: 250px;
+  font-size: 36px;
+}
+
+#theme .container .row .col-12 p {
+  font-family: 'STIX Two Text',
+    serif;
+  width: 150px;
+  font-size: 18px;
+}
+
+#theme .container .row .col-12 ul {
+  display: flex;
+  font-family: 'STIX Two Text',
+    serif;
+  padding-top: 50px;
+}
+
+#theme .container .row .col-12 ul li {
+  list-style-type: none;
+}
+
+#theme .container .row .col-12 ul li a {
+  text-decoration: none;
+  padding-left: 25px;
+  color: #111;
+  font-size: 20px;
+
+}
+
+/* THeme End */
+
+
+/* Icons Start */
+#icons .container .row .col-4 .box {
+  width: 380px;
+  height: 280px;
+  margin-top: 50px;
+
+}
+
+#icons .container .row .col-4 .box img {
+  width: 100%;
+  height: 100%;
+}
+
+#icons .container .row .col-4 .blog {
+  width: 380px;
+  height: 280px;
+  margin-top: 100px;
+}
+
+#icons .container .row .col-4 .blog img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/* Fotter Start */
+footer .container-fluid{
+  background-color: rgb(24, 73, 57);
+  margin-top: 100px;
+  height: 400px;
+}
+footer .container-fluid .row .col-12{
+  
+  display: flex;
+  justify-content: center;
+}
+footer .container-fluid .row .col-12 .end .image{
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  
+}
+footer .container-fluid .row .col-12 .end .image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+footer .container-fluid .row .col-12 .end ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+footer .container-fluid .row .col-12 .end ul li{
+  text-decoration: none;
+  list-style: none;
+
+}
+footer .container-fluid .row .col-12 .end ul li a{
+color: #111;
+font-family: 'STIX Two Text',
+serif;
+font-size: 20px;
+}
