@@ -1,0 +1,30 @@
+/* colors
+primary-> 17a2b8
+secondary->#ff6935
+*/
+:root {
+ --primary: #17a2b8;
+ --secondary: #ff6935;
+ --margin-x: 10px;
+ --margin-2x: calc((var(--margin-x))*2);
+}
+
+/* COmmon Classes */
+
+button {
+ border-width: 0px;
+}
+
+.pr-btn {
+
+ background: transparent;
+ padding: 15px 30px;
+ border-radius: 5px;
+ margin: var(--margin-x) var(--margin-2x);
+}
+
+.pr-btn-secondary {
+ background: var(--secondary);
+ color: white;
+
+}
