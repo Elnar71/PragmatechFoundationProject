@@ -37,7 +37,7 @@ p {
 }
 
 .pr-item {
-
+ width: 350px;
  height: 300px;
  border-radius: 5px;
  background: var(--secondary);
@@ -58,7 +58,7 @@ p {
  top: 0px;
  left: 0px;
  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 100%);
- transition: all 0.3s linear ;
+ transition: all 0.3s linear;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -68,7 +68,8 @@ p {
  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, .8) 100%);
 
 }
-.overlay span{
+
+.overlay span {
  width: 40px;
  height: 40px;
  border-radius: 50%;
@@ -79,6 +80,7 @@ p {
  opacity: 0;
  transition: all .4s ease;
 }
-.pr-item:hover .overlay span{
+
+.pr-item:hover .overlay span {
  opacity: 1;
 }
