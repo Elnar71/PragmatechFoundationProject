@@ -50,7 +50,7 @@
 
 #about .container-fluid .row .col-4 .icon {
   padding-left: 100px;
-  margin-top: 80px;
+  top: 80px;
   width: 200px;
   position: relative;
   left: 50px;
