@@ -31,7 +31,7 @@
   font-weight: 1000;
   font-family: 'STIX Two Text',
     serif;
-font-size: 20px;
+  font-size: 20px;
 }
 
 #about .container-fluid .row .col-4 {
@@ -133,18 +133,49 @@ font-size: 20px;
 }
 
 #menu .container-fluid .row .col-4 .row .col-6 .mockup button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #111;
   color: white;
   width: 150px;
-  height: 50px;
+  height: 60px;
   border-radius: 5px;
-  border: none;
   font-size: 18px;
   font-family: 'STIX Two Text',
     serif;
   padding: 0px;
+  transform: all 5s linear;
+  position: relative;
 }
+#menu .container-fluid .row .col-4 .row .col-6 .mockup button div{
+  position: absolute;
+  left: 130px;
+  font-size: 20px;
+  line-height: 60px;
+  opacity: 0;
+  transform: all 5s linear;
+}
+#menu .container-fluid .row .col-4 .row .col-6 .mockup button:hover div {
+opacity: 1;
+}
+ button p{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: 15px;
+  left: 29px;
+  
+}
+#menu .container-fluid .row .col-4 .row .col-6 .mockup button:hover p{
+  position: absolute;
+}
+#menu .container-fluid .row .col-4 .row .col-6 .mockup button:hover {
+  width: 180px;
+  opacity: 0.8;
+  
 
+}
 #menu .container-fluid .row .col-4 .row .col-6 .image {
   width: 550px;
   height: 500px;
@@ -308,79 +339,97 @@ font-size: 20px;
 
 /* Fotter Start */
 footer .container-fluid {
-  background-color: #1A1A1A;
   margin-top: 100px;
-  height: 480px;
+  background: #1a1a1a;
+  height: 400px;
 }
-
+footer .container-fluid .row{
+  width: 1200px;
+  position: relative;
+}
 footer .container-fluid .row .col-12 {
-
   display: flex;
   justify-content: center;
-  align-items: center;
+  position: absolute;
+  left: 457px;
 }
 
+.ending {
+  width: 600px;
+  height: 400px;
+}
 
-footer .container-fluid .row .col-12 .end .image {
-  margin-top: 80px;
+.ending .image {
+  margin: 50px auto 0;
   width: 150px;
   height: 150px;
-display: block;
-position: relative;
-left: 183px;
+
 }
 
-footer .container-fluid .row .col-12 .end .image img {
+.ending .image img {
   width: 100%;
   height: 100%;
-  border-radius: 100px;
-
+  border-radius: 50%;
 }
 
-.end .info ul {
-  margin-top: 40px;
-  list-style: none;
+.ending ul {
   display: flex;
-  font-size: 20px;
-
+  list-style: none;
+  justify-content: center;
 }
 
+.ending ul li {
+  padding: 35px 0 0 25px;
+  position: relative;
+  right: 12.5px;
+}
 
-.end .info ul li a {
-  padding-left: 35px;
-
+.ending ul li a {
   text-decoration: none;
-  color: #111;
-  font-weight: 1000;
+  color: #b3b3b3;
+  font-size: 22px;
   font-family: 'STIX Two Text',
     serif;
-  color: #B3B3B3;
 }
 
-.websites ul {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
+footer .ending .icons ul {
 
+  height: 80px;
 }
 
-.websites ul li {
-  text-decoration: none;
-  list-style: none;
-
+footer .ending .icons ul li {
+  width: 75px;
+  padding-top: 45px;
 }
 
-.websites ul li a {
-  color: #B3B3B3;
+footer .ending .icons ul li a {
+  background: #111;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+}
 
+footer .ending .icons ul li a i {
   font-size: 20px;
-}
-
-.end h3 {
-  color: #B3B3B3;
-  margin-top: 30px;
-  font-size: 18px;
-  font-family: 'STIX Two Text',
-    serif;
   text-align: center;
+  color: white;
+  margin-right: 12.5px;
 }
+footer .scroll {
+  position: relative;
+  left: 700px;
+  font-size: 40px;
+  
+}
+
+footer .scroll a{
+  position: absolute;
+  bottom: 0px;
+ color:#b3b3b3;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/* Footer End */
