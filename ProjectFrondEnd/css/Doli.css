@@ -51,13 +51,16 @@
 #about .container-fluid .row .col-4 .icon {
   padding-left: 100px;
   margin-top: 80px;
-  font-weight: 500;
-  font-size: 20px;
   width: 200px;
   position: relative;
   left: 50px;
 }
-
+#about .container-fluid .row .col-4 .icon a{
+  color: #111;
+  font-weight: 500;
+  font-size: 25px;
+  margin-right: 10px;
+}
 /* About End */
 
 
