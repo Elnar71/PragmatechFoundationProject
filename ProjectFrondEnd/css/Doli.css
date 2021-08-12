@@ -242,14 +242,15 @@ button p {
   text-decoration: none;
   list-style: none;
   margin-top: 60px;
-  width: 350px;
+  width: 250px;
+  
 }
 
 #menu .container-fluid .row .col-4 .website-icons ul li {
   padding-top: 40px;
   width: 40px;
   position: relative;
-  left: 270px;
+  left: 250px
 }
 
 #menu .container-fluid .row .col-4 .website-icons ul li a {
@@ -314,8 +315,8 @@ button p {
 #theme .container .row .col-12 p {
   font-family: 'STIX Two Text',
     serif;
-  width: 150px;
-  font-size: 18px;
+  width: 160px;
+  font-size: 20px;
 }
 
 #theme .container .row .col-12 ul {

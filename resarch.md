@@ -33,7 +33,8 @@ Imperative language- bize kodu nece yazacagimizi gosterir
 Declerative- ise yazdigimiz kodun qarsiliginda ne netice alacagimizi gosterir.(yeni bizim eslinde ne elediyimizi)
 Meselen biz gedib sevdiyimiz qadina evlilik teklifi eden zaman bunu bir nece yolla ede bilerik gelin 2 yola baxaq.
 1ci yol odurki hemin qadinin qarsisina gederek bir basa evlilik teklifi etmek qisa sozlerle( Declerative)
-2cisi ise eyni qayda da ona gederek ozunu dolgun ifadelerle ifade elemek ve en sonda evlilik teklifini dile getirmekdi (Imperative)
+2cisi ise eyni qayda da ona gederek ozunu dolgun ifadelerle ifade elemek meselcun yasadiginiz xos gunleri bir birinize ne qeder aid oldugunu ve saire xatirlatmaq 
+ en sonda evlilik teklifini dile getirmekdi (Imperative)
 bu zaman saydigimiz iki yolun 1cisi declerative 2cisi ise impertaive language adlanir
 Daha aydin desek Declerative dillerde biz bir basa ne istediyimizi edirik.
 Imperative de ise bu meselenin backgrounduna ve bir sira diger amillere nezer saldiqdan sonra yerine yetiririk
