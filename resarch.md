@@ -7,3 +7,20 @@ bilərik.
 -Başqa bir diqqət olunmalı məqam isə odur ki, classlara verdiyimiz ad konkret olmamalıdır.Yəni, ad, verdiyimiz dizaynla bir başa əlaqəli olmasın.Çünki, dizaynı
 nə vaxtsa dəyişdirə bilərik və bu zaman əlaqəli(eyni) ad bizə qarışıqlıq yaratmış olar.
 
+
+<!-- DIFFERENCE BETWEEN COMPILER AND INTERPRETER -->
+Ilk olaraq qeyd elemeliyemki bunlar her ikisi translatordu ve verilenleri komputerin basa duseceyi dile cevirir.ILk olaraq INTERPRETERIN nece islediyine baxaq -
+<!-- Eger biz ozumuzu (program), ustani (interpreter), masinimizi- (computer) adlandirsaq onda- -->
+Meselen bizim maşinimiz xarab olur ve biz(program) maşinimizi(computerimiz) temir edecek ustaya(interpreter) masini temir ede bilmesi ucun bir sira telimatlar veririk.Hemin usta bu telimatlari 1-1 oxuyur ve her birini ayri ayriliqda oxuduqca masinimiza tetbiq(translate) eleyir.Ve butun bu muddet erzinde usta bizimle beraber olur.Bu biraz uzun vaxt aparir cunki usta yeni(interpreter)bizim telimatlarimizi sirali olaraq ona demeyimizi gozleyir.Amma eyni zamanda  bizim elediyimiz sehvleri duzeltmeyimize imkan yaranir.Eger her hansi bir telimati sehv ve ya yerini qarişiq vermişikse bunu usta bize bildirir ve biz telimatda düzəliş ede bilerik.
+
+<!-- Compilere geldikde ise- -->
+<!-- Eger biz ozumuzu (program), ustani (compiler), masinimizi- (computer) adlandirsaq onda- --> -->
+Bu zaman usta bir basa olaraq bizden(programdan) butun telimatlari goturur.Ve bir basa olaraq hamisini butovlukde masinimiza(komputere) tetbiq(translate) eleyir.Işini bitirdikden sonra maşini bize tehvil verir ve pulunu alaraq bizden ayrilir).Ve butun bunlar cox qisa zamanda baş verir cunki bu zaman usta butun telimatlari ozu bildiyi ucun gozlemeye duşmur ve hamisini oz başina tetbiq eleyir.Bunun pis terefi ondadirki eger usta maşinimiz uzerinde her hansi bir sehv iş gorurse biz bunu hemin anda duzelde ve ya gore bilmirik.
+
+Demeli Interpreter : 1)Yavaş isleyir
+2)Bize her bir neticeni yazdıqca gormeye imkan verir
+3)Bir basa olaraq ise başlayir(telimatlari onun ucun biz oxuyuruq)
+
+Compiler ise: 1)Cox suretli işleyir
+2)Neticeni yalniz iş bitdikden sonra gore bilerik
+3)Ise başlamagi biraz zaman alir(cunki telimatlari ozu oxuyur)
