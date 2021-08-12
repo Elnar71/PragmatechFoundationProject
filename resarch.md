@@ -9,6 +9,7 @@ nə vaxtsa dəyişdirə bilərik və bu zaman əlaqəli(eyni) ad bizə qarışı
 
 
 <!-- DIFFERENCE BETWEEN COMPILER AND INTERPRETER -->
+Bildiyimiz kimi yaddashdan istifadeye gore diller 2 yere ayrilir.
 Ilk olaraq qeyd elemeliyemki bunlar her ikisi translatordu ve verilenleri komputerin basa duseceyi dile cevirir.ILk olaraq INTERPRETERIN nece islediyine baxaq -
 <!-- Eger biz ozumuzu (program), ustani (interpreter), masinimizi- (computer) adlandirsaq onda- -->
 Meselen bizim maşinimiz xarab olur ve biz(program) maşinimizi(computerimiz) temir edecek ustaya(interpreter) masini temir ede bilmesi ucun bir sira telimatlar veririk.Hemin usta bu telimatlari 1-1 oxuyur ve her birini ayri ayriliqda oxuduqca masinimiza tetbiq(translate) eleyir.Ve butun bu muddet erzinde usta bizimle beraber olur.Bu biraz uzun vaxt aparir cunki usta yeni(interpreter)bizim telimatlarimizi sirali olaraq ona demeyimizi gozleyir.Amma eyni zamanda  bizim elediyimiz sehvleri duzeltmeyimize imkan yaranir.Eger her hansi bir telimati sehv ve ya yerini qarişiq vermişikse bunu usta bize bildirir ve biz telimatda düzəliş ede bilerik.
@@ -24,3 +25,15 @@ Demeli Interpreter : 1)Yavaş isleyir
 Compiler ise: 1)Cox suretli işleyir
 2)Neticeni yalniz iş bitdikden sonra gore bilerik
 3)Ise başlamagi biraz zaman alir(cunki telimatlari ozu oxuyur)
+
+
+
+<!-- Imperative and Declerative Languages-->
+Imperative language- bize kodu nece yazacagimizi gosterir
+Declerative- ise yazdigimiz kodun qarsiliginda ne netice alacagimizi gosterir.(yeni bizim eslinde ne elediyimizi)
+Meselen biz gedib sevdiyimiz qadina evlilik teklifi eden zaman bunu bir nece yolla ede bilerik gelin 2 yola baxaq.
+1ci yol odurki hemin qadinin qarsisina gederek bir basa evlilik teklifi etmek qisa sozlerle( Declerative)
+2cisi ise eyni qayda da ona gederek ozunu dolgun ifadelerle ifade elemek ve en sonda evlilik teklifini dile getirmekdi (Imperative)
+bu zaman saydigimiz iki yolun 1cisi declerative 2cisi ise impertaive language adlanir
+Daha aydin desek Declerative dillerde biz bir basa ne istediyimizi edirik.
+Imperative de ise bu meselenin backgrounduna ve bir sira diger amillere nezer saldiqdan sonra yerine yetiririk
