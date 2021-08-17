@@ -101,3 +101,23 @@ pluseight()
 
 
 // Example 6
+// Default parametri yalniz funksiyani cagiran zaman bosh qalan yerin evezine teyin edir.
+function topla(a=3,b=9){
+ console.log(a+b)
+
+}
+topla(7,12)
+
+// Example  7
+function otherfunc(func){
+ func()
+}
+otherfunc(topla)
+
+
+Array
+
+names = ['Quba', 'Baki', 'Zaqatala']
+
+complexarray = [true, false, 4, [1, 3, 5, 8]]
+

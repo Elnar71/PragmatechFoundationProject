@@ -91,7 +91,7 @@ let hello=function(){
 
 <!-- 3cu meselenin helli -->
 
-
+```
 function Foo() {
  let a = 5
  return a
@@ -103,4 +103,5 @@ function Bar() {
 }
 Bar()
 
+```
 <!-- netice olaraq 5 alacagiq -->
