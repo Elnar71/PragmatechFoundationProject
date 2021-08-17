@@ -31,10 +31,76 @@ Compiler ise: 1)Cox suretli işleyir
 <!-- Imperative and Declerative Languages-->
 Imperative language- bize kodu nece yazacagimizi gosterir
 Declerative- ise yazdigimiz kodun qarsiliginda ne netice alacagimizi gosterir.(yeni bizim eslinde ne elediyimizi)
+
 Meselen biz gedib sevdiyimiz qadina evlilik teklifi eden zaman bunu bir nece yolla ede bilerik gelin 2 yola baxaq.
+
 1ci yol odurki hemin qadinin qarsisina gederek bir basa evlilik teklifi etmek qisa sozlerle( Declerative)
-2cisi ise eyni qayda da ona gederek ozunu dolgun ifadelerle ifade elemek meselcun yasadiginiz xos gunleri bir birinize ne qeder aid oldugunu ve saire xatirlatmaq 
- en sonda evlilik teklifini dile getirmekdi (Imperative)
+
+2cisi ise eyni qayda da ona gederek ozunu dolgun ifadelerle ifade elemek meselcun yasadiginiz xos gunleri bir birinize ne qeder aid oldugunu ve saire xatirlatmaq en sonda evlilik teklifini dile getirmekdi (Imperative)
+
 bu zaman saydigimiz iki yolun 1cisi declerative 2cisi ise impertaive language adlanir
 Daha aydin desek Declerative dillerde biz bir basa ne istediyimizi edirik.
 Imperative de ise bu meselenin backgrounduna ve bir sira diger amillere nezer saldiqdan sonra yerine yetiririk
+
+
+
+
+
+<!-- Function Declarationd and Function Assignment(also called as Function Expression) -->
+    Differences -->
+
+ 1)1ci ferq SINTAKSIS ferqidir 
+ <!-- // Function Declaration -->
+function hello(){}
+
+<!-- // Function Assignment -->
+let hello=function(){}
+
+
+
+
+2) Function Assignment her hansi bir deyisene(variable) teyin olunmus  ANONIM funksiyadir.
+amma Function Declerationun ise ozune variable teyin edirik
+ For example  
+
+
+
+
+
+
+3)Daha bir ferq bu funksiyalarin cagirilmasi ile baglidir.
+Meselen : 
+<!-- hello()
+function hello(){
+ console.log('Hello')
+} -->
+Bu zaman biz netice olaraq 'Hello' alacagiq cunki Function Declaration oxunmasi ucun default olaraq her zaman seyfenin ve ya scriptin yuxarisina qaldirilir(it is hoisted) demeli biz bu functionu
+hem ozunden evvel hem ozunden sonra cagira bilerik.
+
+
+Function Assigmente geldikde ise o yalniz ozunden sonra cagirilmish adlari oxuyur.Eger biz bu funksiyanin adini ozunden evvel cagirsaq bu zaman o REFERENCE ERROR verecek.
+
+
+Meselen :
+<!-- hello()
+let hello=function(){
+ console.log('Hello')
+} --> 
+
+
+
+<!-- 3cu meselenin helli -->
+
+
+function Foo() {
+ let a = 5
+ return a
+}
+
+function Bar() {
+ let a=Foo()
+ console.log(a)
+}
+Bar()
+
+<!-- netice olaraq 5 alacagiq -->
