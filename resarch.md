@@ -70,10 +70,13 @@ amma Function Declerationun ise ozune variable teyin edirik
 
 3)Daha bir ferq bu funksiyalarin cagirilmasi ile baglidir.
 Meselen : 
+```
 <!-- hello()
 function hello(){
  console.log('Hello')
 } -->
+```
+
 Bu zaman biz netice olaraq 'Hello' alacagiq cunki Function Declaration oxunmasi ucun default olaraq her zaman seyfenin ve ya scriptin yuxarisina qaldirilir(it is hoisted) demeli biz bu functionu
 hem ozunden evvel hem ozunden sonra cagira bilerik.
 
@@ -82,14 +85,15 @@ Function Assigmente geldikde ise o yalniz ozunden sonra cagirilmish adlari oxuyu
 
 
 Meselen :
+```
 <!-- hello()
 let hello=function(){
  console.log('Hello')
 } --> 
 
+```
 
-
-<!-- 3cu meselenin helli -->
+3cu meselenin helli
 
 ```
 function Foo() {
@@ -102,6 +106,50 @@ function Bar() {
  console.log(a)
 }
 Bar()
-
 ```
 <!-- netice olaraq 5 alacagiq -->
+
+
+
+                 <!-- DOM -->
+1)Attribute object --> ```attributes.name``` property
+a)Bu metod bize atributun adini gosterir
+d)Argument teleb etmir bir basa ad gosterir
+
+2)Attribute object --> ```attributes.length``` property
+a)bu metod bize nodemap icerisindeki attributlarin sayini gosterir
+d)Argument teleb etmir bir basa reqem gosterir
+
+3)Document object --> ```document.createComment``` method
+a)bu metod bize istediyimiz kommenti yaratmaga imkan verir
+b)return hesab olunur
+c)Object tip melumat qaytarir
+d)String formali 'Data' argumenti qebul edir 
+
+4)Document object --> ```document.lastModified``` property
+a)Dokuemntde en son ne zaman deisiklik oldugu gun ve zamani gosterir
+b)Argument teleb etmir
+
+5)Location object--> ```location.replace()``` method
+a)Cari dokumenti yeni dokumentle evez edir
+b)void hesab olunur
+d) String formali 'URL' argumenti teleb edir 
+
+7)Navigator object--> ```navigator.javaEnabled()``` method
+a)Browserin Java erisimli olub olmadigini yoxlayir. Eledirse 'True' deilse 'False' gosterir
+b)return hesab olunur
+c)Boolean tip melumat qaytarir
+d)Argument teleb etmir
+
+8)Window object--> ```windows.scrollTo()``` method
+a)Dokumenti verdiyimiz deyer qeder ufuqi veya saquli olaraq surusdurur.
+b)void hesab olunur
+d)number formada 2 eded 'x' ve' y' argumenti teleb edir
+
+9)Window object--> ```windows.outerHeight/outerWidth``` property
+a)Toolbars ve Scrollbars daxil olmaqla browserin uzunlugunu ve enini gosterir
+b)Argument teleb etmir
+
+10)Style object--> ```object.style.clip()``` property
+a)Elementin hansi hissesinin gorunub gorunmeyeceyini teyin edir
+b)'String' formada (auto(default) rect(top right bottom left) initial ve inherit ) argumenti qebul edir
