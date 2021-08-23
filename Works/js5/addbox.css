@@ -1,0 +1,14 @@
+.boxContainer {
+ position: absolute;
+ left: 25px;
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+.box {
+ /* width: 200px; */
+ height: 150px;
+ border: 1px solid black;
+ margin: 10px;
+}

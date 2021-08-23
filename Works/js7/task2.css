@@ -1,0 +1,22 @@
+/* Task 2 */
+.hello{
+ position: relative;
+}
+div {
+ position: absolute;
+ width: 200px;
+ height: 200px;
+ border: 1px solid black;
+ text-align: center;
+ background: cyan;
+ line-height: 200px;
+}
+
+.btn {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+

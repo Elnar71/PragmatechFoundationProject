@@ -45,7 +45,7 @@ heading.innerHTML='It is Heading'
 document.body.appendChild(heading)
 
 
-// HTML-de Var olan elementin datasini oxumaq 
+// HTML-de Var olan elementin datasini cagirmaq
 
 document.querySelector('h1')
 
