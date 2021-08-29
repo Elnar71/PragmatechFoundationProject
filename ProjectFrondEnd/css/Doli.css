@@ -1,110 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-@media (max-width:576px) {
-  section {
-    width: 100%;
-  }
-
-  footer {
-    width: 100%;
-  }
+p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
-@media (min-width:576px) and (max-width:992px) {
-  section {
-    width: 100%;
-  }
-
-  footer {
-    width: 100%;
-  }
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-@media (min-width:992px) and (max-width:1200px) {
-  section {
-    width: 100%;
-  }
-
-  footer {
-    width: 100%;
-  }
-}
-
-@media (min-width:1200) {
-  section {
-    width: 1200px;
-  }
-
-  footer {
-    width: 1200px;
-  }
+h1,
+h2 {
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* About Start */
-#about .container-fluid .row .col-4 .doli {
-  width: 180px;
-  height: 180px;
-  margin-left: 80px;
+
+#header .row {
+  width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
 }
 
-#about .container-fluid .row .col-4 .doli img {
+#header .row .logo {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  left: 150px;
+}
+
+#header .row .logo img {
   width: 100%;
   height: 100%;
 }
 
-.navbar ul {
-  margin-top: 80px;
-  list-style: none;
+#header .row nav {
+  position: relative;
+  left: 400px;
+}
+
+#header .row nav ul {
   display: flex;
-
 }
 
-.navbar ul li a {
-  padding-left: 25px;
+#header .row nav ul li {
+  list-style-type: none;
+}
 
+#header .row nav ul li a {
+  padding: 0px 20px;
   text-decoration: none;
-  color: #111;
-  font-weight: 1000;
-  font-family: 'STIX Two Text',
-    serif;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
 }
 
-#about .container-fluid .row .col-4 {
-  width: 500px;
-}
-
-#about .container-fluid .row .col-4:nth-child(2) {
+#header .row .icons {
+  width: 100px;
   position: relative;
-  left: 300px;
-  width: 600px;
+  left: 120px;
 }
 
-#about .container-fluid .row .col-4:last-child {
-  width: 300px;
+#header .row .icons a {
+  text-decoration: none;
+  color: black;
+
 }
 
-#about .container-fluid .row .col-4 .icon {
-  padding-left: 100px;
-  top: 80px;
-  width: 200px;
-  position: relative;
-  left: 50px;
-}
-
-#about .container-fluid .row .col-4 .icon a {
-  color: #111;
-  font-weight: 500;
+#header .row .icons a span {
   font-size: 25px;
-  margin-right: 10px;
 }
 
-/* About End */
-
+/* Header end */
 
 /* Menu Start */
 #menu .container-fluid .row .col-4 {
@@ -125,20 +99,20 @@
 }
 
 #menu .container-fluid .row .col-4 .welcome {
-
   width: 300px;
   height: 350px;
-
+  margin-bottom: 15px;
+  
 }
 
 #menu .container-fluid .row .col-4 .welcome h2 {
   transform: rotate(-90deg);
   width: 350px;
   height: 300px;
-  margin-left: 5px;
+  margin-left: 20px;
   margin-top: 100px;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   font-size: 18px;
   letter-spacing: 5px;
 
@@ -154,16 +128,16 @@
 
 #menu .container-fluid .row .col-4 .row .col-6 .mockup p:first-child {
   font-size: 20px;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   padding-bottom: 0px;
   padding-top: 20px;
 }
 
 #menu .container-fluid .row .col-4 .row .col-6 .mockup p {
   font-size: 16px;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   padding-bottom: 10px;
   padding-top: 0px;
 
@@ -172,35 +146,34 @@
 
 #menu .container-fluid .row .col-4 .row .col-6 .mockup h1 {
   font-size: 40px;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   margin: 20px 0;
 }
 
 #menu .container-fluid .row .col-4 .row .col-6 .mockup button {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #111;
   color: white;
   width: 150px;
   height: 60px;
   border-radius: 5px;
   font-size: 18px;
-  font-family: 'STIX Two Text',
-    serif;
-  padding: 0px;
-  transform: all 5s linear;
+  font-family: 'Roboto',
+  sans-serif;
+  transition: 0.3s all ease;
   position: relative;
 }
 
+
 #menu .container-fluid .row .col-4 .row .col-6 .mockup button div {
   position: absolute;
-  left: 130px;
-  font-size: 20px;
+  left: 136px;
+  font-size: 18px;
   line-height: 60px;
   opacity: 0;
-  transform: all 5s linear;
+  transition: 0.3s all ease;
+  
 }
 
 #menu .container-fluid .row .col-4 .row .col-6 .mockup button:hover div {
@@ -239,26 +212,25 @@ button p {
 }
 
 #menu .container-fluid .row .col-4 .website-icons ul {
-  text-decoration: none;
-  list-style: none;
   margin-top: 60px;
   width: 250px;
-  
 }
 
 #menu .container-fluid .row .col-4 .website-icons ul li {
   padding-top: 40px;
   width: 40px;
   position: relative;
-  left: 250px
+  left: 280px;
+  list-style-type: none;
 }
 
 #menu .container-fluid .row .col-4 .website-icons ul li a {
   color: #111;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   width: 100%;
   font-size: 20px;
+  text-decoration: none;
 }
 
 /* Menu End */
@@ -268,29 +240,30 @@ button p {
   width: 500px;
   margin-top: 100px;
   padding-top: 100px;
-
+  height: 500px;
 }
 
 #theme .container .row .col-6 .picture img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border: none;
 }
 
 #theme .container .row .col-6 .words {
   padding: 100px 0 0 5px;
   margin-top: 100px;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   width: 550px;
 }
 
 #theme .container .row .col-6 .words h3 {
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 20px;
 }
 
 #theme .container .row .col-6 .words p {
+  padding-top: 25px;
   font-size: 16px;
 }
 
@@ -306,26 +279,29 @@ button p {
 }
 
 #theme .container .row .col-12 h2 {
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   width: 250px;
   font-size: 36px;
+  text-align: center;
 }
 
 #theme .container .row .col-12 p {
-  font-family: 'STIX Two Text',
-    serif;
-  width: 160px;
+  font-family: 'Roboto',
+  sans-serif;
+  width: 170px;
   font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #theme .container .row .col-12 ul {
+  text-align: center;
   display: flex;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
   padding-top: 50px;
-  position: relative;
-  right: 20px;
+  
 }
 
 #theme .container .row .col-12 ul li {
@@ -335,8 +311,7 @@ button p {
 
 #theme .container .row .col-12 ul li a {
   text-decoration: none;
-
-  padding-left: 25px;
+  padding: 0px 10px;
   color: #111;
   font-size: 20px;
 
@@ -442,8 +417,8 @@ footer .container-fluid .row .col-12 {
   text-decoration: none;
   color: #b3b3b3;
   font-size: 22px;
-  font-family: 'STIX Two Text',
-    serif;
+  font-family: 'Roboto',
+  sans-serif;
 }
 
 footer .ending .icons ul {
