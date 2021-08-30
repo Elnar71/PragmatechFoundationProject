@@ -121,7 +121,7 @@ h2 {font-weight: 800;
  border-radius: 5px;
  height: 50px;
  background: black;
- width: 764px;
+ width: 765px;
  color: white;
  transition: 0.3s all ease;
  font-family: 'Roboto',
@@ -245,7 +245,7 @@ footer .ending .icons ul li a i {
 footer .scroll {
  position: relative;
  left: 700px;
- font-size: 40px;
+
 
 }
 
@@ -253,6 +253,7 @@ footer .scroll a {
  position: absolute;
  bottom: 0px;
  color: #b3b3b3;
+  font-size: 40px;
 }
 
 html {
