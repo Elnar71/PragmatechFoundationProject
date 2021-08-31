@@ -153,3 +153,127 @@ b)Argument teleb etmir
 10)Style object--> ```object.style.clip()``` property
 a)Elementin hansi hissesinin gorunub gorunmeyeceyini teyin edir
 b)'String' formada (auto(default) rect(top right bottom left) initial ve inherit ) argumenti qebul edir
+
+      
+                         /* Python */
+Pythonda asagida gosterilen 7 data type var ve her data type de ozluyunde cesidlere bolunur.Ve bunlardan 'JAVASCRIPT'LE ad olaraq ortaq olan yalniz Boolean ve Numericdir.Bundan bashqa javascriptde data typlerin ozluyunde cesidlere bolunmesi (mes:Numeric Types:int, float, complex) yox idi.  ->
+```
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+```
+
+Pythonda asagidaki operatorlar var.Bunlardan Identity ve Membership operatorlari 'JAVASCRIPTDE'olmayan bizim ucun yeni operatorlardir. ->
+```
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+```
+
+
+                  Data Type Conversion
+Data tip cevirmek ucun biz 'Implicit'(gizli) data tip cevirmeden istifade ede bilerik.
+Bu o demekdirki bu tip cevrilme bir basha PYTHONun ozu terefinden biz kodumuzu run zaman avtomatik olaraq edilir.BAxacagimiz numunede netice 'float typene'   cevrilecek.
+1)
+```
+a=3
+b=3.4
+c=a+b
+print(c)
+```
+
+Bashqa bir cevrilme metodu 'Explicit'(ashkar,aciq) cevrilme metoudur.Bu zaman biz cevirmek istediyimiz metodu daxil edirik. Meselen int() float() str() ve s
+2)
+```
+a=123
+b='456'
+b=int(b)
+c=a+b
+print(c)
+
+```
+
+3) 
+```
+a = [1, 2, 3, 4, 5, 6]
+b = (7, 9, 9, 10)
+print(tuple(a))
+print(list(b))
+```
+
+4)
+```
+a=21
+bin_a=bin(a)
+print(bin_a)
+
+```
+5)
+```
+fruit = 'Orange'
+print(set(fruit))
+fruit_list = list(fruit)
+fruit_list.append('s')
+print(fruit_list)
+
+```
+
+                     Function
+
+b)1)                  
+Parameter deyilende nezerde tutulan odurki biz funksiyani teyin eden zaman morterizeler icinde yazdigimiz variabledir. Meselen->
+```
+def myfunc(a): /*bu halda a bizim 'parameterimiz' hesab olunur.*/
+```
+b)2)
+Argument ise funksiyani cagiran zaman bu parametrin yerine yazidigimiz valuedir ->
+```
+def myfunc(a):
+    print(a)
+myfunc(5)  /*bu halda yazdigimiz 5 bizim 'argumentimiz' hesab olunur. */
+```
+
+c)1)Arbitrary Arguments, *args bu o demekdirki biz eger argumentimizin sayini deqiq bilmirikse o zaman parametri teyin eden zaman qarwisina * isaresini qoyuruq.Ve daha sonra print etdikde istediyimiz argumenti cagirmaq ucun onun indeks nomresinden istifade edirik.Numuneye baxsaq:
+```
+def myfunc(*names):
+    print('My name is '+ names[1]) /* bu halda 'My name is Ramin'*/ olacaq
+
+myfunc('Elnar', 'Ramin', 'Nofel')
+```
+
+c)2)
+Keyword Arguments bu zaman biz her bir argumentin hansi parametere aid oldugunu elle daxil edirik. Meselen:
+
+```
+def myfunc(fruit1,fruit2,fruit3):
+    print('My lovely fruit is '+ fruit2)  /* bize netice olaraq 'My lovely fruit is berry' verecek */
+myfunc(fruit1='apple', fruit2='berry', fruit3='banana') 
+```
+
+c)3)Arbitrary Keyword Arguments, **kwargs Eger biz keyword argumentlerimizin sayini bilmirikse bu zaman double ** dan istifade edirik
+
+```
+def myfunc(**key):
+    print('Her surname is '+ key['adios'])
+myfunc(adios='Chio', patos='Mia')    
+```
+
+
+c)4)
+Default Parameter Value bu o demekdirki biz funksiyani cagiran zaman ona argument vermirikse o oz default verilen argumentinden istifade edecek numuneye baxaq:
+```
+def myfunc(car='Honda')
+    print('My lovely car is ' + car)
+myfunc()      /* yalniz bu halda o 'Honda' stringini qebul edecek. */
+myfunc('BMW')
+myfunc('MERCEDES')
+myfunc('SUPRA')
+```
