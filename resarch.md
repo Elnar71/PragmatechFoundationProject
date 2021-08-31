@@ -277,3 +277,18 @@ myfunc('BMW')
 myfunc('MERCEDES')
 myfunc('SUPRA')
 ```
+
+
+Key Differences Between Python and JavaScript
+
+1) Javascript de yeni bir deyisen ve ya ifade teyin elemek daha dogru desek: bir verileni digerinden ferqlendirmek ucun ' ; ' istifade edilir.Python da ise eynisini elemek ucun sadece yeni setirden yazmagimiz kifayet edir.
+2) Python istifadeci terefinden asan idare olunmasi ucun daha yaxsi dizayn edilib.Ancaq Pythonla muqayisede Javascript daha az keyfiyyetli programlasdirma dilidir.
+3) JavaScript mobil development ucun yaxsi oldugu halda, Python o qeder de yaxsi hesab olunmur.
+4) Pyhtonun isleme sureti Javascriptle muqayisede daha yavasdir.
+5) Pythonun Javascriptle muqayisede daha zengin kitabxanasi var
+6) Pythonun elmi hesablama, data analitikasi ve maschine learning ucun bir cox kitabxanasi oldugu halda Javascriptin yoxdur
+7) JavaScript hem browserde hemde serverde isleyir.Ancaq Python esasen server yonumlu programlasdirmada istifade olunur.
+8) Daha oncede qeyd elediyim kimi Python data analitikasi ve machine learning ucun ideal oldugu halda, JAvascriptden esasen web seyfelerin dizayn olunmasi ucun istifade olunur
+9) Pythonun reqemsal data tipi ucun int, float, fixed-point decimal kimi novleri var.JAvascript de ise esasen floating-point variablesden istifade olunur
+10) Pythonda deyisken ve deyisken olmayan data tipi anlayisi var.Meselen set(mutable) list ise(immutable) hesab olunur.Ancaq Javascriptde bele bir anlayish yoxdur.
+11) Pythonda REPL(Read Evaluate Print and Loop)anlayisi var. Yeni yazilan kodu run elemek ucun ozune mexsus bir nece softwaresi movcuddur.Javascript ise xususi bir software istifade elemir. Adeten browser uzerinden run olunur.Ancaq node.js texnologiyasini yukleyerek javascripti onun uzerinden de run elemek olar.
