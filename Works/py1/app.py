@@ -29,3 +29,13 @@ soyad = input('Soyadınız ? ')
 adam = f'{ad} {soyad} \n'
 file = open('data.txt', 'a')
 file.write(adam)
+
+
+b=a^2
+
+bugdasayi=1
+
+for xananomresi in range(64):
+    bugdasayi+=2**xananomresi
+    
+print(bugdasayi)

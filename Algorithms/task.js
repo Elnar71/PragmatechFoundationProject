@@ -54,3 +54,22 @@ console.log(addodd)
 let odds = (nums.filter(n => n % 2))
 console.log(odds)
 
+
+let saitler = ['a', 'i', 'o', 'u', 'e', 'ə', ]
+saitsayi++
+for (let i = 0; i < str.length; i++) {
+  for (let j = 0; j < saitler.length; j++) {
+    if (str[i] == saitler[j]) {
+      saitsayi++
+    }
+
+  }
+}
+console.log(saitsayi)
+
+
+sum=0
+for(let index in nums){
+   sum+=nums[index]
+}
+console.log(sum)
