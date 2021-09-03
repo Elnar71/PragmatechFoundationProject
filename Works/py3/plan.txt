@@ -1,0 +1,23 @@
+Meqsed
+-Istifadecilerin qeydiyatini almaq
+-Qeydiyyat zamani teleb olunan melumatlar
+ -ad
+ -soyad
+ -email
+ -telefon
+
+-Qeydiyyata alinan istifadecinin melumatlari data.json faylinda saxlanmalidir.
+
+-Istifadeci melumatlari uzerinde asagidaki emelyatlar aparila bilmelidir.
+ -Yeni istifadeci yaratmaq(Create)
+ -Var olan istifadecileri gormek(Read)
+  -secilen istifadeci melumatlarini deyisdirmek(Update)
+ -secilen istifadecini silmek(Delete)
+
+
+ --Istifadecilerle bagli asagidaki funksiyalar yerine yetirile bilmelidir 
+    -istifadeci sayini oyrenmek
+    -ada gore istifadeci axtarisi
+    -soyada gore istifadei axtarisi
+    -emaile gore istifadeci axtarisi
+    -istifadecilerin adlara esasen siralanmasi(elifba sirasina gore)
